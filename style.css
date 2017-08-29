@@ -1,0 +1,63 @@
+body {
+  background-color: #C5E1A5;
+}
+h1 {
+  text-align: center;
+  font-family: 'Monofett', cursive;
+  margin-top: 5%;
+  font-size: 4.5em;
+}
+blockquote {
+  margin: 2% 0% 7% 2%;
+}
+.quote-box {
+  margin: 5% auto;
+  width: 45%;
+  background-color: white;
+  border: 3px solid white;
+  border-radius: 2%;
+  height: 45%;
+}
+.quote-box p {
+  text-align: center;
+}
+a {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+}
+#re_tweet, #gen_quote {
+  margin-top: 3%;
+}
+#re_tweet {
+  float: left;
+}
+.author {
+  text-align: center;
+  margin-top: 6%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3em;
+}
+#gen_quote {
+  float: right;
+}
+.footer {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3em;
+}
+/* Media Query @600px */
+@media (max-width: 712px) {
+  .quote-box {
+    width: 100%;
+  }
+}
+/*Media Query @ 1000px*/
+@media (max-width: 1000px) {
+  #re_tweet, #gen_quote {
+    margin-top: 1%;
+  }
+}
